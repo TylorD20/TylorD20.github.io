@@ -1,0 +1,88 @@
+html {
+  height: 60%;
+}
+body {
+  width: 800px;
+  height: 100%;
+  padding-top: 5px;
+  margin: 0 auto;
+  font-family: Arial;
+}
+header {
+  background-color: Black;
+  color: White;
+  text-align: center;
+  padding: 2px;
+  padding-right: 0px;
+  font-size: 32px;
+  display: block;
+  width: 100%;
+  border: 1px;
+}
+nav {
+  background-color: grey;
+  border: 1px black solid;
+  width: 100%;
+  padding: 0px;
+}
+nav ul {
+  border-bottom: 5px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+nav li {
+  display: inline-block;
+  border: 1px black solid;
+  margin-right: -5px;
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+nav li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  vertical-align: middle;
+}
+a {
+  color: ;
+}
+section {
+  width: 73%;
+  display: inline-block;
+  float: left;
+  font-size: 24px;
+}
+section img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px
+}
+aside {
+  float: right;
+  background-color: grey;
+  width: 17%;
+  display: inline-block;
+  border: 1px black solid;
+  min-height: 100%;
+  font-size: 12px;
+  margin: -1px;
+  margin-right: -2px;
+}
+aside ul {
+  list-style-type: none;
+}
+aside p {
+  padding: 5px;
+}
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  clear: both;
+  display: block;
+  text-align: center;
+  height: 25px;
+  padding: 1px;
+}
